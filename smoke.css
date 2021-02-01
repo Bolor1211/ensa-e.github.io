@@ -36,11 +36,11 @@ h1
 	transform: translateY(-50%);
 	width: 100%;
 	text-align: center;
-	color: #fff;
+	color: #ddd;
 	font-size: 5em; 
 	font-family: 'Lobster';
 	letter-spacing: 0.2em;
-	text-shadow: 0 0 13px #FF0000, 0 0 15px #0000FF;
+	text-shadow: 0 0 10px #14ffe9, 0 0 12px #15ff00;
 
 }
 
