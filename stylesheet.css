@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@font-face {
+    font-family: 'mogul_heinrinch_script';
+	src: url(Mogul-Heinrich-Script.ttf) format ("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'mogul_rodchenko_inlineregular' ;
+	src: url(Mogul-Rodchenko.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
 	/*background-color: #FFDAB9;	*/
 	background-color: #000;
@@ -1273,11 +1287,10 @@ audio {
 	display: none;
 }
 .message p {
-	font-family: 'Signika', sans-serif;
+	font-family: 'mogul_heinrinch_script';
 	font-size: 30px;
 	text-transform: uppercase;
-	color: #C4515C;
-	text-shadow: 2px 2px 2px #FFF;
+	color: #ffffff;
 	display: none;
 	font-weight: bold;
 }

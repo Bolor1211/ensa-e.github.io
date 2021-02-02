@@ -20,50 +20,6 @@ canvas#canvas {
   height: 100%;
 }
 
-div#beach {
-  background-image: url(https://dl.dropbox.com/s/oe0oce2udq44bj5/beachsil2.png);
-  /* background-size: cover; */
-  background-position: bottom right;
-  background-size: 1700px;
-  background-repeat: no-repeat;
-}
-
-div#video {
-  position: absolute;
-  right: 243px;
-  bottom: 200px;
-}
-
-div#video iframe {
-  width: 255px;
-  height: 155px;
-}
-
-#people {
-  position: absolute;
-  bottom: 65px;
-  left: 40px;
-  width: 140px;
-}
-
-#car {
-  position: absolute;
-  bottom: 46px;
-  left: 180px;
-  width: 230px;
-}
-
-div#sea {
-  background-color: blue;
-  height: 85px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-image: radial-gradient(circle at center top, #23485a, #0d0246);
-}
-
-
 .merrywrap,.wheels {
   position: absolute;
   right: 0px;
@@ -84,7 +40,7 @@ div#sea {
   z-index: 10;
 }
 .giftbox > div {
-  background: #34495e;
+  background: #ff0000;
   position: absolute;
 }
 .giftbox > div:after, .giftbox > div:before {
