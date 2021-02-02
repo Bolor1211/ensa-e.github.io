@@ -15,6 +15,22 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Mogul Heinrich Script';
+    src: url('MogulHeinrichScript.eot') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mogul Rodchenko Inline';
+    src: url('MogulRodchenkoInline.eot') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 html,body{
 	margin:0;
