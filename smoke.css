@@ -2,35 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 @font-face {
     font-family: 'Mogul Heinrich Script';
-    src: url('MogulHeinrichScript.ttf') format('truetype');
+    src: url('MogulHeinrichScript.eot');
+    src: url('MogulHeinrichScript.eot?#iefix') format('embedded-opentype'),
+        url('MogulHeinrichScript.woff2') format('woff2'),
+        url('MogulHeinrichScript.woff') format('woff'),
+        url('MogulHeinrichScript.ttf') format('truetype'),
+        url('MogulHeinrichScript.svg#MogulHeinrichScript') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Mogul Rodchenko Inline';
-    src: url('MogulRodchenkoInline.ttf') format('truetype');
+    font-family: 'Mogul Rodchenko';
+    src: url('MogulRodchenko.eot');
+    src: url('MogulRodchenko.eot?#iefix') format('embedded-opentype'),
+        url('MogulRodchenko.woff2') format('woff2'),
+        url('MogulRodchenko.woff') format('woff'),
+        url('MogulRodchenko.ttf') format('truetype'),
+        url('MogulRodchenko.svg#MogulRodchenko') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-@font-face {
-    font-family: 'Mogul Heinrich Script';
-    src: url('MogulHeinrichScript.eot') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Mogul Rodchenko Inline';
-    src: url('MogulRodchenkoInline.eot') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 
 html,body{
 	margin:0;
@@ -70,7 +64,7 @@ h1
 	text-align: center;
 	color: #ddd;
 	font-size: 6em; 
-	font-family: 'Mogul Rodchenko Inline';
+	font-family: 'Mogul Rodchenko';
 	letter-spacing: 0.2em;
 
 }
