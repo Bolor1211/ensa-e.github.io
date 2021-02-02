@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 @font-face {
-    font-family: 'mogul_rodchenko_inlineregular';
-	src: url(Mogul-Heinrich-Script.ttf) format ("truetype");
+    font-family: 'Mogul Heinrich Script';
+    src: url('MogulHeinrichScript.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
+    font-display: swap;
 }
+
 @font-face {
-    font-family: 'mogul_heinrinch_script';
-	src: url(Mogul-Rodchenko.ttf) format("truetype");
+    font-family: 'Mogul Rodchenko Inline';
+    src: url('MogulRodchenkoInline.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
+    font-display: swap;
 }
 
 html,body{
@@ -52,10 +53,9 @@ h1
 	width: 100%;
 	text-align: center;
 	color: #ddd;
-	font-size: 5em; 
-	font-family: 'mogul_rodchenko_inlineregular';
+	font-size: 6em; 
+	font-family: 'Mogul Rodchenko Inline';
 	letter-spacing: 0.2em;
-	text-shadow: 0 0 5px #fffb14d5, 0 0 12px #ffffff;
 
 }
 

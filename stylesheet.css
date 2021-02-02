@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 @font-face {
-    font-family: 'mogul_heinrinch_script';
-	src: url(Mogul-Heinrich-Script.ttf) format ("truetype");
+    font-family: 'Mogul Heinrich Script';
+    src: url('MogulHeinrichScript.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
+    font-display: swap;
 }
+
 @font-face {
-    font-family: 'mogul_rodchenko_inlineregular' ;
-	src: url(Mogul-Rodchenko.ttf) format("truetype");
+    font-family: 'Mogul Rodchenko Inline';
+    src: url('MogulRodchenkoInline.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
+    font-display: swap;
 }
 body {
 	/*background-color: #FFDAB9;	*/
@@ -1287,12 +1288,10 @@ audio {
 	display: none;
 }
 .message p {
-	font-family: 'mogul_heinrinch_script';
+	font-family: 'Mogul Heinrich Script';
 	font-size: 30px;
-	text-transform: uppercase;
 	color: #ffffff;
 	display: none;
-	font-weight: bold;
 }
 
 .btn-primary {

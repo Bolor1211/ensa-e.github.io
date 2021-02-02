@@ -50,7 +50,8 @@ canvas#canvas {
 }
 .giftbox:after {
   position: absolute;
-  color: #e5e5e5;
+  color: #000000;
+  font-weight: bold;
   text-shadow: 4px 4px 0 rgba(0, 99, 148, 0.4);
   width: 100%;
   content: "Эхлээд намайг дар!";
